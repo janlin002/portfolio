@@ -1,0 +1,22 @@
+/* navbar link的border效果 */
+.navbarHover::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+.navbarHover:hover::after {
+    width: 100%;
+}
+
+/* 流動文字寬度 */
+.typewriterWidth{
+    width: 400px;
+}
+@media (max-width: 768px) {
+    .typewriterWidth {
+      width: 300px
+    }
+  }
