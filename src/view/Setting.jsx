@@ -18,14 +18,14 @@ function Setting() {
             </button>
           {/* </div> */}
 
-          <h1 style={{color: textTheme}}>{locale.theme}:</h1>
+          {/* <h1 style={{color: textTheme}}>{locale.theme}:</h1> */}
           {/* <div> */}
-            <button type="button" className="btn btn-outline-dark btn-sm m-1" onClick={()=>setTheme('light')} style={{color: textTheme}}>
+            {/* <button type="button" className="btn btn-outline-dark btn-sm m-1" onClick={()=>setTheme('light')} style={{color: textTheme}}>
               {locale.themeLight}
             </button>
             <button type="button" className="btn btn-outline-dark btn-sm m-1" onClick={()=>setTheme('dark')} style={{color: textTheme}}>
               {locale.themeDark}
-            </button>
+            </button> */}
           {/* </div> */}
         </div>
       </div>

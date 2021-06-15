@@ -6,6 +6,7 @@ import MainPage from './view/MainPage';
 import Setting from './view/Setting';
 import Navbar from './Navbar';
 import { Api } from './ContextApi';
+import Projects from './view/Projects';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={MainPage}></Route>
             <Route path="/setting" exact component={Setting}></Route>
+            <Route path="/projects" exact component={Projects}></Route>
           </Switch>
         </Router>
       </Api>
