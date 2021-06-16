@@ -22,7 +22,10 @@ const zh ={
     'skill': '技術',
     'selfIntroduction': '自我介紹',
     'project': '專案',
-    'link': '連結'
+    'link': '連結',
+    'myStory': '1998年生於台南，從小居住於台北，程式方面有過開發react,vue的相關經驗，最後選擇react為主要框架，主要還是因為個人認為react有著更高的靈活性，且與react相關redux,hooks都有開發經驗',
+    'ironmanMedal': '下圖是去年參加鐵人賽，獲得的勳章，本身學習程式喜歡做筆記，包括Notion, Github, medium都有我做筆記的痕跡',
+    'resumeLink': '履歷連結',
     
 }
 

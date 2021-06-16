@@ -25,7 +25,10 @@ const en ={
     'skill': 'Skills',
     'selfIntroduction': 'Self-Introduction',
     'project': 'Project',
-    'link': 'Link'
+    'link': 'Link',
+    'myStory': 'Born in Tainan in 1998, I have lived in Taipei since I was a child. I have experience in the development of react and vue in programming. I finally chose react as the main framework, mainly because I personally think that react has higher flexibility and is related to react. Redux and hooks are all Have development experience',
+    'ironmanMedal': 'The picture below is the medal I won in the Ironman competition last year. My learning program likes to take notes, including Notion, Github, and medium. I have traces of taking notes.',
+    'resumeLink': 'Resume Link'
 }
 
 export default en;
