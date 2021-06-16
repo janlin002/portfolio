@@ -19,6 +19,10 @@ const zh ={
     'davidLin': '林湛',
     'FrontEndEngineerjob': '前端工程師',
     'navbarInfo': '23歲，來自台北，畢業於基隆海洋大學，是一位戶外活動愛好者',
+    'skill': '技術',
+    'selfIntroduction': '自我介紹',
+    'project': '專案',
+    'link': '連結'
     
 }
 

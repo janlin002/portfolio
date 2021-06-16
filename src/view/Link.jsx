@@ -1,10 +1,12 @@
-import React from 'react';
+import React,{useContext} from 'react';
+import { ContextApi } from '../ContextApi';
 
 function Link() {
+  const { locale } =useContext(ContextApi);
   return (
     <div>
       <div className="container">
-        <h1 className="text-center p-3">連結</h1>
+        <h1 className="text-center p-3">{locale.link}</h1>
         <div className="row">
           <div className="col-sm-3">
             <a href="https://github.com/janlin002">

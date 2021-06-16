@@ -6,7 +6,7 @@ function Project() {
     const { locale } = useContext(ContextApi)
   return (
     <div className="container">
-      <div className="h1 text-center p-3">專案</div>
+      <div className="h1 text-center p-3">{locale.project}</div>
       <div className="row">
         <div className="col-sm-4">
           <div class="card cardHover">

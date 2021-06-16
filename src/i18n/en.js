@@ -21,7 +21,11 @@ const en ={
     'checkoutProject': 'Check out this Project',
     'davidLin': 'David Lin',
     'FrontEndEngineerjob': 'Front-end Engineer',
-    'navbarInfo': '23 years old, from Taipei, graduated from Keelung Ocean University, is an outdoor enthusiast'
+    'navbarInfo': '23 years old, from Taipei, graduated from Keelung Ocean University, is an outdoor enthusiast',
+    'skill': 'Skills',
+    'selfIntroduction': 'Self-Introduction',
+    'project': 'Project',
+    'link': 'Link'
 }
 
 export default en;

@@ -7,7 +7,7 @@ function Introduction() {
   return (
     <div>
       <div className="container">
-        <h1 className="text-center p-3">自我介紹</h1>
+        <h1 className="text-center p-3">{locale.selfIntroduction}</h1>
         <div className="row">
           <div className="col">
             <h2>{locale.davidLin}</h2>

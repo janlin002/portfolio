@@ -1,14 +1,17 @@
-import React from 'react';
-import SkillData from '../Widgets/SkillData'
+import React, {useContext} from 'react';
+import {SkillDataZh, SkillDataEn} from '../Widgets/SkillData';
+import { ContextApi } from '../ContextApi';
 
 
 function Skill() {
+  const { lang, locale } = useContext(ContextApi);
+  const SkillLocale = lang === 'zh' ? SkillDataZh : SkillDataEn
   return (
     <div>
       <div className="container">
-        <h1 className="text-center p-3">技術</h1>
+        <h1 className="text-center p-3">{locale.skill}</h1>
         <div className="row">
-          {SkillData.map((item) => (
+          {SkillLocale.map((item) => (
             <div className="col-sm-4 pb-3">
               <div class="card cardHover">
                 <div class="card-header">
