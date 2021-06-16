@@ -1,10 +1,15 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import cardData from '../Widgets/CardData';
 import { ContextApi } from '../ContextApi';
-import '../style/index.css'
+import '../style/index.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
   const { locale } = useContext(ContextApi);
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <div className="container">
