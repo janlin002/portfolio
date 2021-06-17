@@ -54,14 +54,22 @@ function Project() {
         </div>
         <div className="col-sm-4">
           <div class="card cardHover">
-            {/* <img src={cardData[2].cardImg} class="card-img-top" alt="..." /> */}
+            <img src={cardData[2].cardImg} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              {/* <a href="#" class="btn btn-primary">Go somewhere</Fa> */}
+              <h4 class="card-title text-center">{locale.project2CardTitle}</h4>
+              <h5 className="text-center">{locale.projectFeatures}:</h5>
+              <ul>
+                <li>Vue</li>
+                <li>Vuex</li>
+                <li>vue-router</li>
+                <li>bootstrap</li>
+              </ul>
+              <a
+                href="https://github.com/janlin002/thecave"
+                class="btn btn-outline-dark btn-sm d-flex justify-content-center"
+              >
+                {locale.checkoutProject}
+              </a>
             </div>
           </div>
         </div>
