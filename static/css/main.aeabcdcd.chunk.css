@@ -1,0 +1,2 @@
+.navbarHover:after{content:"";display:block;width:0;height:2px;background:#000;transition:width .3s}.navbarHover:hover:after{width:100%}.typewriterWidth{width:400px}@media (max-width:768px){.typewriterWidth{width:300px}}.cardHover:hover{transform:scale(1.02);transition:.5s;box-shadow:0 5px 22px 0 rgba(0,0,0,.1)}.linkStyle{color:#000;text-decoration:none}.linkStyle:hover{color:#fff;text-decoration:none}
+/*# sourceMappingURL=main.aeabcdcd.chunk.css.map */
