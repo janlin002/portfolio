@@ -6,7 +6,6 @@ import Link from './Link';
 import Introduction from './Introduction';
 import Project from './Project'
 import '../style/index.css';
-import ReactGA from 'react-ga';
 
 function MainPage() {
   const { locale, bgTheme, textTheme } = useContext(ContextApi);
